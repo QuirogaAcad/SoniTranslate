@@ -1,118 +1,116 @@
 <h1 align="center">🎥 SoniTranslate 🈷️</h1>
 
-## 🎬 Traducción de vídeo con audio 🌐 sincronizado
+## 🎬 Traducción de video con audio 🌐 sincronizado
 
-SonyTranslate es una aplicación web potente y fácil de usar que permite traducir vídeos fácilmente a diferentes idiomas. Este repositorio aloja el código de la interfaz web de SonyTranslate, que está construida con la biblioteca Gradio para ofrecer una experiencia de usuario fluida e interactiva.
+SoniTranslate es una aplicación web potente y fácil de usar que permite traducir videos fácilmente a diferentes idiomas. Este repositorio contiene el código de la interfaz web de SoniTranslate, que está construida con la biblioteca Gradio para ofrecer una experiencia de usuario fluida e interactiva.
 
-
-| Description | Link |
+| Descripción | Link |
 | ----------- | ---- |
-| 📙 Colab Notebook | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/R3gm/SoniTranslate/blob/main/SoniTranslate_Colab.ipynb) |
-| 🎉 Repository | [![GitHub Repository](https://img.shields.io/badge/GitHub-Repository-black?style=flat-square&logo=github)](https://github.com/R3gm/SoniTranslate/) |
-| 🚀 Online DEMO | [![Hugging Face Spaces](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Spaces-blue)](https://huggingface.co/spaces/r3gm/video_dubbing_sonitr_demo) |
+| 📙 Notebook de Colab | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/R3gm/SoniTranslate/blob/main/SoniTranslate_Colab.ipynb) |
+| 🎉 Repositorio | [![GitHub Repository](https://img.shields.io/badge/GitHub-Repository-black?style=flat-square&logo=github)](https://github.com/R3gm/SoniTranslate/) |
+| 🚀 DEMO Online | [![Hugging Face Spaces](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Spaces-blue)](https://huggingface.co/spaces/r3gm/video_dubbing_sonitr_demo) |
 
-## La interfaz web de SonyTranslate, que cuenta con una interfaz de navegador basada en la biblioteca Gradio.
+## La interfaz web de SoniTranslate, que cuenta con una interfaz de navegador basada en la biblioteca Gradio.
 ![image](https://github.com/R3gm/SoniTranslate/assets/114810545/0d71fbf4-e9f0-4f8f-944e-8f3f1ea6a019)
 
-## Using the project: A video guide
+## Uso del proyecto: Guía en video
 
-For a comprehensive understanding of the project, we highly recommend watching this video tutorial by [DEV-MalletteS](https://github.com/DEV-MalletteS). You can watch it on YouTube by clicking the thumbnail below:
+Para comprender mejor el proyecto, recomendamos ver este tutorial en video de [DEV-MalletteS](https://github.com/DEV-MalletteS). Puedes verlo en YouTube haciendo clic en la miniatura de abajo:
 
 [![Watch the video](https://img.youtube.com/vi/SmGkFaSzq_Q/0.jpg)](https://www.youtube.com/watch?v=SmGkFaSzq_Q)
 
+## Idiomas compatibles para traducción
 
-## Supported languages for translation 
-
-| Language Code | Language   |
+| Código | Idioma |
 |---------------|------------|
-| en            | English    |
-| fr            | French     |
-| de            | German     |
-| es            | Spanish    |
-| it            | Italian    |
-| ja            | Japanese   |
-| nl            | Dutch      |
-| uk            | Ukrainian  |
-| pt            | Portuguese |
-| ar            | Arabic     |
-| zh            | Chinese - Simplified      |
-| zh-TW         | Chinese - Traditional     |
-| cs            | Czech      |
-| da            | Danish     |
-| fi            | Finnish    |
-| el            | Greek      |
-| he            | Hebrew     |
-| hu            | Hungarian  |
-| ko            | Korean     |
-| fa            | Persian    |
-| pl            | Polish     |
-| ru            | Russian    |
-| tr            | Turkish    |
-| ur            | Urdu       |
-| hi            | Hindi      |
-| vi            | Vietnamese |
-| id            | Indonesian |
-| bn            | Bengali    |
-| te            | Telugu     |
-| mr            | Marathi    |
-| ta            | Tamil      |
-| jw (or jv)    | Javanese   |
-| ca            | Catalan    |
-| ne            | Nepali     |
-| th            | Thai       |
-| sv            | Swedish    |
-| am            | Amharic    |
-| cy            | Welsh      |
-| hr            | Croatian   |
-| is            | Icelandic  |
-| ka            | Georgian   |
-| km            | Khmer      |
-| sk            | Slovak     |
-| sq            | Albanian   |
-| sr            | Serbian    |
-| az            | Azerbaijani|
-| bg            | Bulgarian  |
-| gl            | Galician   |
-| gu            | Gujarati   |
-| kk            | Kazakh     |
-| kn            | Kannada    |
-| lt            | Lithuanian |
-| lv            | Latvian    |
-| ml            | Malayalam  |
-| ro            | Romanian   |
-| si            | Sinhala    |
-| su            | Sundanese  |
-| et            | Estonian                  |
-| mk            | Macedonian                |
-| sw            | Swahili                   |
-| af            | Afrikaans                 |
-| bs            | Bosnian                   |
-| la            | Latin                     |
-| my            | Myanmar Burmese           |
-| no            | Norwegian                 |
-| as            | Assamese                  |
-| eu            | Basque                    |
-| ha            | Hausa                     |
-| ht            | Haitian Creole            |
-| hy            | Armenian                  |
-| lo            | Lao                       |
-| mg            | Malagasy                  |
-| mn            | Mongolian                 |
-| mt            | Maltese                   |
-| pa            | Punjabi                   |
-| ps            | Pashto                    |
-| sl            | Slovenian                 |
-| sn            | Shona                     |
-| so            | Somali                    |
-| tg            | Tajik                     |
-| tk            | Turkmen                   |
-| tt            | Tatar                     |
-| uz            | Uzbek                     |
-| yo            | Yoruba                    |
+| en | Inglés |
+| fr | Francés |
+| de | Alemán |
+| es | Español |
+| it | Italiano |
+| ja | Japonés |
+| nl | Neerlandés |
+| uk | Ucraniano |
+| pt | Portugués |
+| ar | Árabe |
+| zh | Chino - Simplificado |
+| zh-TW | Chino - Tradicional |
+| cs | Checo |
+| da | Danés |
+| fi | Finlandés |
+| el | Griego |
+| he | Hebreo |
+| hu | Húngaro |
+| ko | Coreano |
+| fa | Persa |
+| pl | Polaco |
+| ru | Ruso |
+| tr | Turco |
+| ur | Urdu |
+| hi | Hindi |
+| vi | Vietnamita |
+| id | Indonesio |
+| bn | Bengalí |
+| te | Telugu |
+| mr | Maratí |
+| ta | Tamil |
+| jw (or jv) | Javanés |
+| ca | Catalán |
+| ne | Nepalí |
+| th | Tailandés |
+| sv | Sueco |
+| am | Amárico |
+| cy | Galés |
+| hr | Croata |
+| is | Islandés |
+| ka | Georgiano |
+| km | Khmer |
+| sk | Eslovaco |
+| sq | Albanés |
+| sr | Serbio |
+| az | Azerbaiyano |
+| bg | Búlgaro |
+| gl | Gallego |
+| gu | Gujarati |
+| kk | Kazajo |
+| kn | Canarés |
+| lt | Lituano |
+| lv | Letón |
+| ml | Malayalam |
+| ro | Rumano |
+| si | Cingalés |
+| su | Sondanés |
+| et | Estonio |
+| mk | Macedonio |
+| sw | Suajili |
+| af | Afrikáans |
+| bs | Bosnio |
+| la | Latín |
+| my | Birmano (Myanmar) |
+| no | Noruego |
+| as | Asamés |
+| eu | Vasco |
+| ha | Hausa |
+| ht | Criollo Haitiano |
+| hy | Armenio |
+| lo | Lao |
+| mg | Malgache |
+| mn | Mongol |
+| mt | Maltés |
+| pa | Punyabí |
+| ps | Pastún |
+| sl | Esloveno |
+| sn | Shona |
+| so | Somalí |
+| tg | Tayiko |
+| tk | Turcomano |
+| tt | Tártaro |
+| uz | Uzbeko |
+| yo | Yoruba |
 
-### Non-transcription
+### Idiomas sin transcripción
 
-| Language Code | Language   |
+| Código | Idioma |
 |---------------|------------|
 | ay | Aymara |
 | bm | Bambara |
@@ -121,50 +119,52 @@ For a comprehensive understanding of the project, we highly recommend watching t
 | dv | Divehi |
 | doi | Dogri |
 | ee | Ewe |
-| gn | Guarani |
+| gn | Guaraní |
 | ilo | Iloko |
-| rw | Kinyarwanda|
+| rw | Kinyarwanda |
 | kri | Krio |
-| ku | Kurdish |
-| ky | Kirghiz |
+| ku | Kurdo |
+| ky | Kirguís |
 | lg | Ganda |
 | mai | Maithili |
 | or | Oriya |
 | om | Oromo |
 | qu | Quechua |
-| sm | Samoan |
+| sm | Samoano |
 | ti | Tigrinya |
 | ts | Tsonga |
 | ak | Akan |
-| ug | Uighur |
+| ug | Uigur |
 
-## Example:
+## Ejemplo:
 
-### Original audio
+### Audio original
 
 https://github.com/R3gm/SoniTranslate/assets/114810545/db9e78c0-b228-4e81-9704-e62d5cc407a3
 
-
-
-### Translated audio
+### Audio traducido
 
 https://github.com/R3gm/SoniTranslate/assets/114810545/6a8ddc65-a46f-4653-9726-6df2615f0ef9
 
-
 ## Colab Runtime
 
-To run SoniTranslate using Colab Runtime: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/R3gm/SoniTranslate/blob/main/SoniTranslate_Colab.ipynb)
+Para ejecutar SoniTranslate usando Colab Runtime:
 
-## Install Locally (Installation tested in Linux)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/R3gm/SoniTranslate/blob/main/SoniTranslate_Colab.ipynb)
 
-### Before You Start
+## Instalar localmente (instalación probada en Linux)
 
-Before you start installing and using SoniTranslate, there are a few things you need to do:
+### Antes de empezar
 
-1. Install the NVIDIA drivers for CUDA 11.8.0, NVIDIA CUDA is a parallel computing platform and programming model that enables developers to use the power of NVIDIA graphics processing units (GPUs) to speed up compute-intensive tasks. You can find the drivers [here](https://developer.nvidia.com/cuda-toolkit-archive). Follow the instructions on the website to download and install the drivers.
-2. Accept the license agreement for using Pyannote. You need to have an account on Hugging Face and `accept the license to use the models`: https://huggingface.co/pyannote/speaker-diarization and https://huggingface.co/pyannote/segmentation
-3. Create a [huggingface token](https://huggingface.co/settings/tokens). Hugging Face is a natural language processing platform that provides access to state-of-the-art models and tools. You will need to create a token in order to use some of the automatic model download features in SoniTranslate. Follow the instructions on the Hugging Face website to create a token. When you are creating the new Access Token in Hugging Face, make sure to tick "Read access to contents of all public gated repos you can access".
-4. Install [Anaconda](https://www.anaconda.com/) or [Miniconda](https://docs.anaconda.com/free/miniconda/miniconda-install/). Anaconda is a free and open-source distribution of Python and R. It includes a package manager called conda that makes it easy to install and manage Python environments and packages. Follow the instructions on the Anaconda website to download and install Anaconda on your system.
+Antes de instalar y usar SoniTranslate debes hacer lo siguiente:
+
+1. Instalar los drivers NVIDIA para CUDA 11.8.0. CUDA es una plataforma de computación paralela que permite usar GPUs NVIDIA para acelerar tareas intensivas. Puedes encontrar los drivers [aquí](https://developer.nvidia.com/cuda-toolkit-archive).
+2. Aceptar la licencia de Pyannote en Hugging Face:  
+https://huggingface.co/pyannote/speaker-diarization  
+https://huggingface.co/pyannote/segmentation
+3. Crear un [token de Hugging Face](https://huggingface.co/settings/tokens).
+4. Instalar [Anaconda](https://www.anaconda.com/) o [Miniconda](https://docs.anaconda.com/free/miniconda/miniconda-install/).
+Anaconda is a free and open-source distribution of Python and R. It includes a package manager called conda that makes it easy to install and manage Python environments and packages. Follow the instructions on the Anaconda website to download and install Anaconda on your system.
 5. Install Git for your system. Git is a version control system that helps you track changes to your code and collaborate with other developers. You can install Git with Anaconda by running `conda install -c anaconda git -y` in your terminal (Do this after step 1 in the following section.). If you have trouble installing Git via Anaconda, you can use the following link instead:
    - [Git for Linux](https://git-scm.com/download/linux)
 
