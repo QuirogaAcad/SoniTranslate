@@ -1,12 +1,8 @@
-# Recall.ai - API for meeting transcription
-
-If you’re looking for a meeting transcription API, consider checking out [Recall.ai](https://www.recall.ai/product/meeting-transcription-api?utm_source=github&utm_medium=sponsorship&utm_campaign=r3gm-sonitranslate), an API that records Zoom, Google Meet, Microsoft Teams, in-person meetings, and more.
-
 <h1 align="center">🎥 SoniTranslate 🈷️</h1>
 
-## 🎬 Video Translation with Synchronized Audio 🌐
+## 🎬 Traducción de vídeo con audio 🌐 sincronizado
 
-SonyTranslate is a powerful and user-friendly web application that allows you to easily translate videos into different languages. This repository hosts the code for the SonyTranslate web UI, which is built with the Gradio library to provide a seamless and interactive user experience.
+SonyTranslate es una aplicación web potente y fácil de usar que permite traducir vídeos fácilmente a diferentes idiomas. Este repositorio aloja el código de la interfaz web de SonyTranslate, que está construida con la biblioteca Gradio para ofrecer una experiencia de usuario fluida e interactiva.
 
 
 | Description | Link |
@@ -15,7 +11,7 @@ SonyTranslate is a powerful and user-friendly web application that allows you to
 | 🎉 Repository | [![GitHub Repository](https://img.shields.io/badge/GitHub-Repository-black?style=flat-square&logo=github)](https://github.com/R3gm/SoniTranslate/) |
 | 🚀 Online DEMO | [![Hugging Face Spaces](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Spaces-blue)](https://huggingface.co/spaces/r3gm/video_dubbing_sonitr_demo) |
 
-## SonyTranslate's web UI, which features a browser interface built on the Gradio library.
+## La interfaz web de SonyTranslate, que cuenta con una interfaz de navegador basada en la biblioteca Gradio.
 ![image](https://github.com/R3gm/SoniTranslate/assets/114810545/0d71fbf4-e9f0-4f8f-944e-8f3f1ea6a019)
 
 ## Using the project: A video guide
